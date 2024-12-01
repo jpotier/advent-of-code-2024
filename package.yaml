@@ -12,6 +12,8 @@ dependencies:
   - matrix
   - vector
   - containers
+  - text
+  - scientific
 
 executables:
   aoc24:
