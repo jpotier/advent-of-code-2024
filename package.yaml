@@ -16,6 +16,7 @@ dependencies:
   - scientific
   - utility-ht
   - safe
+  - algebraic-graphs
 
 executables:
   aoc24:
@@ -30,7 +31,7 @@ library:
     - Day2
     - Day3
     - Day4
-    # - Day5
+    - Day5
     # - Day6
     # - Day7
     # - Day8
