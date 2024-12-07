@@ -1,26 +1,36 @@
 name: aoc24
 
-ghc-options: -Wall -threaded #-prof -fprof-auto -rtsopts
+ghc-options: -Wall -threaded
 
 default-extensions:
   - OverloadedStrings
 
 dependencies:
   - base == 4.*
+  - algebraic-graphs
+  - async
   - attoparsec
   - bytestring
-  - matrix
-  - vector
   - containers
-  - text
-  - scientific
-  - utility-ht
+  - hashable
+  - matrix
+  - parallel
   - safe
-  - algebraic-graphs
+  - scientific
+  - text
+  - unliftio
+  - unordered-containers
+  - utility-ht
+  - vector
 
 executables:
   aoc24:
     main: Main.hs
+    dependencies:
+      - aoc24
+  aoc24-debug:
+    main: Main.hs
+    ghc-options: -Wall -threaded -rtsopts -eventlog -prof #-fprof-auto
     dependencies:
       - aoc24
 
@@ -32,7 +42,7 @@ library:
     - Day3
     - Day4
     - Day5
-    # - Day6
+    - Day6
     # - Day7
     # - Day8
     # - Day9

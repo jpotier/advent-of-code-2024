@@ -1,3 +1,5 @@
 result*
 *.cabal
 dist-newstyle
+*.eventlog
+*.prof
