@@ -3,12 +3,6 @@
 
 module Day6 where
 
--- import Data.Attoparsec.Text (Parser)
--- import Data.Either (fromRight)
--- import Data.List (find)
--- import Data.List.HT (shearTranspose)
--- import Data.Maybe (catMaybes)
--- import qualified Data.Attoparsec.Text as P
 import Control.Parallel.Strategies
 import Data.List (intersperse, unfoldr, sort)
 import Data.Maybe (fromJust)
