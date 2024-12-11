@@ -22,6 +22,7 @@ dependencies:
   - unordered-containers
   - utility-ht
   - vector
+  - split
 
 executables:
   aoc24:
@@ -30,7 +31,7 @@ executables:
       - aoc24
   aoc24-debug:
     main: Main.hs
-    ghc-options: -Wall -threaded -rtsopts -eventlog -prof #-fprof-auto
+    ghc-options: -Wall -threaded -rtsopts -prof #-fprof-auto
     dependencies:
       - aoc24
 
@@ -43,7 +44,7 @@ library:
     - Day4
     - Day5
     - Day6
-    # - Day7
+    - Day7
     # - Day8
     # - Day9
     # - Day10

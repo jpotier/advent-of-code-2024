@@ -27,6 +27,7 @@
             haskell-language-server
             ghcid
             cabal-install
+            fourmolu
           ];
         # Change the prompt to show that you are in a devShell
         shellHook = ''
