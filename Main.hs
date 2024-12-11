@@ -9,6 +9,7 @@ import Day4
 import Day5
 import Day6
 import Day7
+import Day8
 
 main :: IO ()
 main = do
@@ -25,5 +26,7 @@ main = do
   -- Day5.main
   -- putStrLn "Day 6"
   -- Day6.main
-  putStrLn "Day 7"
-  Day7.main
+  -- putStrLn "Day 7"
+  -- Day7.main
+  putStrLn "Day 8"
+  Day8.main

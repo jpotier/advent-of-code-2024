@@ -13,16 +13,17 @@ dependencies:
   - bytestring
   - containers
   - hashable
+  - linear
   - matrix
   - parallel
   - safe
   - scientific
+  - split
   - text
   - unliftio
   - unordered-containers
   - utility-ht
   - vector
-  - split
 
 executables:
   aoc24:
@@ -45,7 +46,7 @@ library:
     - Day5
     - Day6
     - Day7
-    # - Day8
+    - Day8
     # - Day9
     # - Day10
     # - Day11
