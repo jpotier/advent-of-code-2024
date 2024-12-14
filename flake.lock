@@ -3,8 +3,8 @@
     "nixpkgs": {
       "locked": {
         "lastModified": 1,
-        "narHash": "sha256-y/MEyuJ5oBWrWAic/14LaIr/u5E0wRVzyYsouYY3W6w=",
-        "path": "/nix/store/zx63r1p2sg7w4vicnxlmh2assabvpzc7-c9wv7i0af6mysmy65x6nvyfw5izzxv4g-source",
+        "narHash": "sha256-AKU6qqskl0yf2+JdRdD0cfxX4b9x3KKV5RqA6wijmPM=",
+        "path": "/nix/store/r06xpql4r58fkhzq6np83zhpm7gdmwjv-22r7q7s9552gn1vpjigkbhfgcvhsrz68-source",
         "type": "path"
       },
       "original": {
