@@ -28,6 +28,7 @@
             ghcid
             cabal-install
             fourmolu
+            eventlog2html
           ];
         # Change the prompt to show that you are in a devShell
         shellHook = ''

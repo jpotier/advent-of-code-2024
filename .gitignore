@@ -1,7 +1,8 @@
 result*
 *.cabal
 dist-newstyle
-*.eventlog
+*.eventlog*
 *.prof
 *.dot
 *.pdf
+aoc24-debug.*
